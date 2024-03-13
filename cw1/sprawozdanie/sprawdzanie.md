@@ -80,13 +80,16 @@ Wykonumemy restart RPi przy pomocy reboot
 
 Wykonujemy to za pomocą polecienia:
  #make linux-dirclean
-
+![Alt text](screenshots/make_linux_dirclea.png)
 ### Wprowadzenie zmian w menu config
     - Toolchain -> Toolchain type: External toolchain
     - Uaktywniona opcja cpio the root filesystem
     - Dezaktywowana opcja inital RAM filesystem
     - Aktywowana opcja ext/2/3/4
+    - Zmiana rozmiaru partycji boot na dwa razy większą
     Rekompilacja poleceniem make
+
+ ![Alt text](screenshots/zmieninoy%20_rozmiar.png)   
 
 ### Wynikowy obraz jest mniejszy niż w poprzednim ćwiczeniu
 
@@ -94,12 +97,14 @@ Jest to spowodowane tym, że w poprzednim ćwiczeniu filesystem musiał być zaw
 
 ### Kopiowanie plików na RPi partycję 2
 
-Kopiujemy plik: rootfs.ext2 z host na Rpi korzystając z http.server 
+Kopiujemy plik: rootfs.ext2 z host na Rpi korzystając z http.server
+
+![Alt text](screenshots/skopiowane_br.png) 
+![Alt text](screenshots/skopiowane_pliki_zad2.png)
+![Alt text](screenshots/1.png)
 
 ### Test czy system rzeczywiście korzysta z systemu plików
 
 Tworzymy plik test.txt 
 
 Następnie restartujemy buildroot.
-
-Po restarcie plik nadal znajduje się na dysku.
