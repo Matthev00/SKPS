@@ -56,19 +56,28 @@ Przy pomocy interfejsu http zainstalowalismy pakiety:
 ### zadanie 1
 
 Zawartość kodu w pliku zad1.py
+Zadanie zostało zatwierdzone.
 
 ### zadanie 2
 
 Zawartość kodu w pliku zad2.py
+Zadanie zostało zatwierdzone.
 
 ### zadanie 3
 
 Zawartość kodu w pliku zad3.py
+Zadanie zostało zatwierdzone.
 
 ### zadanie 4
-
-Zawartość kodu w pliku zad4.py
-
 Schemat podłączenia buzzera
 ![Alt text](screenshots/schemat1.png)
+Schemat został zatwierdzony.
 
+Zawartość kodu w pliku zad4.py
+Zadanie zostało zatwierdzone.
+
+
+### zadanie 5
+Schemat podłączenia sensora odległości
+![Alt text](screenshots/schemat2.png)
+Schemat został zatwierdzony.
