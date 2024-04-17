@@ -79,5 +79,5 @@ Zainstalowalismy gbd i gdbserver
 
 ![Alt text](screens/19.png)
 
-### W 2 podpunkcie znaleźliśmy błąd wychodzenia poza tablice
+### W 2 podpunkcie znaleźliśmy błąd wychodzenia poza tablice która jest zalokowana na 1000 intów
 ![Alt text](screens/21.png)
