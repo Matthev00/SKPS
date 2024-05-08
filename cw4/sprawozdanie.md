@@ -133,6 +133,21 @@ Histogramy wykonaliśmy z użyciem programu histogram.py
 ## Zadanie5
 
 Zmodyfikowaliśmy aplikację kliencką cw4b tak, aby zamiast oczekiwać w uśpieniu na dane, oczekiwała aktywnie. Dodaliśmy argument wywałania version pozwala ustawić czy aktywnie oczekujemy tylko przy kliencie 0 czy przy wszystkich.
+    
+    int version; 
+    ...
+    version = atoi(argv[4]);
+    ...
+    active_wait = 0;
+    if (version == 0 && ncli == 0)
+	    active_wait = 1;
+    if (version == 1)
+	    active_wait = 1;
+    ...
+    if (!active_wait)
+        	pthread_cond_wait(&rbuf->cvar, &rbuf->cvar_lock);
+
+
 
 Skompilowalismy nowy pakiet
 ![Alt text](screens/15.png)
