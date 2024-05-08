@@ -64,5 +64,55 @@ Przy 1.000.000 nie wyrabia się
 Przy 800.000 nie wyrabia się
 ![Alt text](screens/c_800.png)
 
-### Wariant 4
+### Wariant 4 Czwarty wariant: 1 klient, 4 rdzenie, bez obciążenia
+Ustawilismy liczbę rdzeni procesora na 4
+![Alt text](screens/zmiana%20cpu4.png)
 
+Przy 500.000 wyrabia się
+![Alt text](screens/d_500.png)
+
+Przy 1.000.000 nie wyrabia się
+![Alt text](screens/d_1000.png)
+
+Przy 700.000 wyrabia się
+![Alt text](screens/d_700.png)
+
+Przy 800.000 nie wyrabia się
+![Alt text](screens/d_750.png)
+
+## Zadanie 4
+
+Dla czasu przetwarzania danych, stanowiącego połowę wartości, przy której system przestaje nadążać z przetwarzaniem, zbadaliśmy rozkład czasu dostarczenia danych do klienta.
+
+Histogramy wykonaliśmy z użyciem programu histogram.py
+
+### Wariant 1
+![Alt text](screens/4_a.png)
+![Alt text](Z4.1/hist.png)
+
+### Wariant2
+![Alt text](screens/4_b.png)
+![Alt text](Z4.2/hist.png)
+
+### Wariant3
+![Alt text](screens/4_c.png)
+![Alt text](Z4.3/hist.png)
+
+### Wariant4
+![Alt text](screens/4_d.png)
+![Alt text](Z4.4/hist.png)
+
+## Zadanie5
+
+Zmodyfikowaliśmy aplikację kliencką cw4b tak, aby zamiast oczekiwać w uśpieniu na dane, oczekiwała aktywnie. Dodaliśmy argument wywałania version pozwala ustawić czy aktywnie oczekujemy tylko przy kliencie 0 czy przy wszystkich.
+
+Skompilowalismy nowy pakiet
+![Alt text](screens/15.png)
+
+Przetestoewaliśmy pierwszy wariant
+
+### Tylko klient 0
+![Alt text](Z5.1/hist.png)
+
+### Wszyscy klienci
+![Alt text](Z5.2/hist.png)
